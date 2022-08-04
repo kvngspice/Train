@@ -1,0 +1,467 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #0A1A26;
+}
+.train{
+    position: absolute;
+    display: flex;
+left: 15px;
+    top: 400px;
+    width: 1700px;  
+    animation: move 8s -1.5s linear infinite forwards;
+    }
+    
+    @keyframes move {
+        0% {transform: translateX(600px);}
+        100% { transform: translateX(-1450px); }
+      }
+      
+.traincar{
+    position: relative;
+    display: flex;
+    width: 434px;
+    height: 124px;
+
+     background: linear-gradient(180deg, #2A2A2A 0%, #171717 100%);
+    border-width: 3px 1px 1px 3px;
+  border-style: solid;
+   border-color: #798C99;
+  border-radius: 300px 0px 0px 0px;
+}
+
+.traincar2{
+    position: relative;
+    width: 435px;
+    height: 124px;
+    left: 10px;
+    background: linear-gradient(180deg, #2A2A2A 0%, #171717 100%);
+    border-width: 2px 1px 1px 1px;
+  border-style: solid;
+   border-color: #798C99;
+  border-radius: 0px 0px 0px 0px;
+  
+}
+
+.traincar3{
+    position: relative;
+    width: 435px;
+    height: 124px;
+    left: 20px;
+    background: linear-gradient(180deg, #2A2A2A 0%, #171717 100%);
+    border-width: 2px 1px 1px 1px;
+  border-style: solid;
+   border-color: #798C99;
+  border-radius: 0px 0px 0px 0px;
+  
+}
+.traincar4{
+    position: relative;
+    display: flex;
+    width: 434px;
+    height: 124px;
+    background: linear-gradient(180deg, #2A2A2A 0%, #171717 100%);
+    border-width: 3px 1px 1px 3px;
+  border-style: solid;
+   border-color: #798C99;
+  border-radius: 300px 0px 0px 0px;
+  transform: scaleX(-1);
+  left:30px;
+}
+
+.bridge{
+    position: absolute;
+    top:530px ;
+    width: 100%;
+    height: 124px;
+    background-color: #0C151C;
+}
+.moon{
+    position: absolute;
+
+left: 70px;
+top: 60px;
+
+
+}
+
+.moon1{
+    position: relative;
+    border-radius: 300px;
+width: 110px;
+height: 110px;
+background: #D9D9D9;
+
+}
+
+.moon2{
+    position: relative;
+    border-radius: 300px;
+width: 110px;
+height: 110px;
+background: #D9D9D9;
+filter: blur(150px);
+
+}
+.moon3{
+    position: relative;
+    border-radius: 300px;
+width: 120px;
+height: 120px;
+background: #D9D9D9;
+filter: blur(45px);
+
+}
+
+.building{
+    
+    position: absolute;
+    left: 700px;
+    top: 205px;
+height: 326px;
+  width: 99px;
+  border-top: solid white 1px;
+  border-left: solid white 2px;
+  
+background: linear-gradient(180deg, #182A37 0%, #071520 66.05%);
+}
+
+.windows1{
+    position: relative;
+    float: right;
+    align-self: center;
+    height: 18px;
+    width: 17px;
+    background-color: 73633A;
+    margin: 3px;
+    margin-right: 11px;
+    top: 6px;
+    
+}
+
+.windows2{
+    position: relative;
+    float: right;
+    align-self: center;
+    height: 18px;
+    width: 17px;
+    background-color: 73633A;
+    margin: 3px;
+    margin-right: 11px;
+    
+    top: 6px;
+    
+}
+
+.windows3{
+    position: relative;
+    float: right;
+    align-self: center;
+    height: 18px;
+    width: 17px;
+    background-color: 73633A;
+    margin: 3px;
+    margin-right: 11px;
+    
+    top: 6px;
+    
+}
+
+.windows4{
+    position: relative;
+    float: right;
+    align-self: center;
+    height: 18px;
+    width: 17px;
+    background-color: 73633A;
+    margin: 3px;
+    margin-right: 11px;
+    
+    top: 6px;
+    
+}
+
+.windows5{
+    position: relative;
+    float: right;
+    align-self: center;
+    height: 18px;
+    width: 17px;
+    background-color: 73633A;
+    margin: 3px;
+    margin-right: 11px;
+    
+    top: 6px;
+    
+}
+
+
+.windows6{
+    position: relative;
+    float: right;
+    align-self: center;
+    height: 18px;
+    width: 17px;
+    background-color: 73633A;
+    margin: 3px;
+    margin-right: 11px;
+    
+    top: 6px;
+    
+}
+
+.windows7{
+    position: relative;
+    float: right;
+    align-self: center;
+    height: 18px;
+    width: 17px;
+    background-color: 73633A;
+    margin: 3px;
+    margin-right: 11px;
+    
+    top: 6px;
+    
+}
+    
+.windows8{
+    position: relative;
+    float: right;
+    align-self: center;
+    height: 18px;
+    width: 17px;
+    background-color: 73633A;
+    margin: 3px;
+    margin-right: 11px;
+    
+    top: 6px;
+    
+}
+.windows9{
+    position: relative;
+    float: right;
+    align-self: center;
+    height: 18px;
+    width: 17px;
+    background-color: 73633A;
+    margin: 3px;
+    margin-right: 11px;
+    
+    top: 6px;
+    
+}
+.windows10{
+    position: relative;
+    float: right;
+    align-self: center;
+    height: 18px;
+    width: 17px;
+    background-color: 73633A;
+    margin: 3px;
+    margin-right: 11px;
+    
+    top: 6px;
+    
+}
+
+
+
+    .triangle {
+        position: absolute;
+        top: 350px;
+        width: 0; 
+        height: 0; 
+        border-left: 180px solid transparent;
+        border-right: 180px solid transparent;
+        
+        border-bottom: 180px solid #12293B;}
+
+        .triangle2 {
+            position: absolute;
+            top: 300px;
+            left:200px;
+            width: 0; 
+            height: 0; 
+            border-left: 230px solid transparent;
+            border-right: 230px solid transparent;
+            
+            border-bottom: 230px solid #12293B;}
+
+            
+    .triangle3 {
+        position: absolute;
+        top: 350px;
+        left: 400px;
+        width: 0; 
+        height: 0; 
+        border-left: 180px solid transparent;
+         border-left: 180px solid transparent;
+        border-right: 180px solid transparent;
+        
+        border-bottom: 180px solid #12293B;
+    }
+        
+
+
+        .triangle4{
+            position: absolute;
+            top: 350px;
+            left:620px;
+            width: 0; 
+            height: 0; 
+            border-left: 200px solid transparent;
+            border-right: 200px solid transparent;
+            
+            border-bottom: 180px solid #12293B;}
+
+        
+.trainwindow1{
+
+    position:relative;
+    height: 50px;
+    width: 50px;
+    background-color: #7F672B;
+    border-radius: 300px 0 0 0;
+    left:60px;
+    top: 30px;
+
+}
+.trainwindow2{
+
+    position:relative;
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    background-color: #7F672B;
+    border-radius: 3px;
+    left:90px;
+    top: 30px;
+    margin-left: 10px ;
+
+}
+
+.door1{
+    position: relative;
+    background-color: #5B5B5B;
+    height: 90px;
+    width: 60px;
+    top: 30px;
+    left: 120px ;
+}
+.doorwindow1{
+  
+        position: relative;
+        background-color: #5B5B5B;
+        height:40px;
+        left:2px;
+        width: 50px;
+        margin: 3px;
+        background-color: #242424;
+        
+    }
+    .trainwindow3{
+        position: relative; 
+        display: inline-block;
+        height: 50px;
+        width: 50px;
+        background-color: #7F672B;
+        border-radius: 3px;
+        left:20px;
+      top: 30px;
+      margin-left: 8px ;
+
+    }
+    .door2{
+        position: relative;
+        float: right;
+        background-color: #5B5B5B;
+        height: 90px;
+        width: 60px;
+        top: 30px;
+        right: 20px ;
+    }
+    .doorwindow2{
+      
+            position: relative;
+            background-color: #5B5B5B;
+            height:40px;
+            left:2px;
+            width: 50px;
+            margin: 3px;
+            background-color: #242424;
+            
+        }
+       
+
+        .space {
+            position: relative;
+            display: block;
+            height: 100vh;
+            width: 100%;
+            background-color: #1B2735;
+            background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%);
+            color: white;
+            padding-top: 20vh;
+          }
+          .stars {
+           
+          }
+          
+          .stars > div {
+            overflow: hidden;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+          }
+          
+          .stars .stars-back {
+            top: -50%;
+            opacity: 0.5;
+            background-image: 
+              radial-gradient(2px 2px at 20px 30px, #eee, rgba(0,0,0,0)),
+              radial-gradient(2px 2px at 40px 70px, #fff, rgba(0,0,0,0)),
+              radial-gradient(1px 1px at 90px 40px, #fff, rgba(0,0,0,0)),
+              radial-gradient(2px 2px at 160px 120px, #ddd, rgba(0,0,0,0));
+            background-repeat: repeat;
+            background-size: 300px 300px;
+            animation: stars 4s infinite linear;
+          }
+          
+          .stars .stars-middle {
+            background-image: 
+              radial-gradient(3px 3px at 50px 160px, #ddd, rgba(0,0,0,0)),
+              radial-gradient(2px 2px at 90px 40px, #fff, rgba(0,0,0,0)),
+              radial-gradient(2px 2px at 130px 80px, #fff, rgba(0,0,0,0));
+            background-repeat: repeat;
+            background-size: 200px 200px;
+            animation: stars 2.5s infinite linear;
+          }
+          
+    
+          
+          //ANIMATION
+          
+          @keyframes fire {
+            0% {
+              background: linear-gradient(to bottom, rgba(255,134,28,1) 0%, rgba(239,1,124,1) 50%, rgba(237,3,3,1) 100%);
+            }
+            50% {
+              background: linear-gradient(to bottom, rgba(237,3,3,1) 0%, rgba(255,134,28,1) 51%, rgba(239,1,124,1) 100%);
+            }
+            100% {
+              background: linear-gradient(to bottom, rgba(239,1,124,1) 0%, rgba(237,3,3,1) 51%, rgba(255,134,28,1) 100%);
+            }
+          }
+          
+         
+          
+          @keyframes stars {
+            0% {
+              top: -100%;
+            }
+            100% {
+              top: 0;
+            }
+          }
